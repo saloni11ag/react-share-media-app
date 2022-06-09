@@ -1,0 +1,25 @@
+.share-box {
+    display: flex;
+    flex-direction: column;
+    background-color: azure;
+    padding: 10px;
+    /* box-shadow: 5px 5px rgb(207, 241, 241); */
+    border: 1px solid rgb(152, 243, 243);
+    border-radius: 20%;
+}
+
+.media-icon {
+    height: 50px;
+    width: 50px;
+}
+
+.media-icon:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.share-icon {
+    height: 35px;
+    width: 50px;
+    cursor: pointer;
+}
